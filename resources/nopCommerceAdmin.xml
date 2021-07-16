@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopCommerce" parallel="false">
+<parameter name="testingURL" value="https://admin-demo.nopcommerce.com/"/>
+	<test name="Run on Chrome">
+		<parameter name="browser" value = "chrome"/>
+		<classes>
+			<class name = "com.admin.nopcommerce.TCs_05_Admin_NopCommerce"/>			
+		</classes>
+	</test>
+	
+	<!-- <test name="Run on Firefox">
+		<parameter name="browser" value = "firefox"/>
+		<classes>
+			<class name = "com.admin.nopcommerce.TCs_05_Admin_NopCommerce"/>
+		</classes>
+	</test> -->
+</suite>
